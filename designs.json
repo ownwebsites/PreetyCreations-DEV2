@@ -1,0 +1,121 @@
+[
+  {
+    "design": "Design1",
+    "image": "Design1.png",
+    "price": 120,
+    "category": "studs",
+    "isNew": true
+  },
+  {
+    "design": "Design2",
+    "image": "Design2.png",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design3",
+    "image": "Design3.png",
+    "price": 249,
+    "category": "fancy",
+    "isNew": true
+  },
+  {
+    "design": "Design4",
+    "image": "Design4.png",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design5",
+    "image": "Design5.png",
+    "price": 249,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design6",
+    "image": "Design6.png",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": true
+  },
+  {
+    "design": "Design7",
+    "image": "Design7.png",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design8",
+    "image": "Design8.png",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": true
+  },
+  {
+    "design": "Design9",
+    "image": "Design9.png",
+    "price": 120,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design10",
+    "image": "Design10.png",
+    "price": 199,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design11",
+    "image": "Design11.png",
+    "price": 120,
+    "category": "fancy",
+    "isNew": true
+  },
+  {
+    "design": "Design12",
+    "image": "Design12.png",
+    "price": 0,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design13",
+    "image": "Design13.png",
+    "price": 199,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design14",
+    "image": "Design14.png",
+    "price": 199,
+    "category": "jhumka",
+    "isNew": true
+  },
+  {
+    "design": "Design15",
+    "image": "Design15.png",
+    "price": 0,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design16",
+    "image": "Design16.png",
+    "price": 149,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design17",
+    "image": "Design17.png",
+    "price": 199,
+    "category": "fancy",
+    "isNew": true
+  }
+]
