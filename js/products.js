@@ -35,56 +35,21 @@ async function loadProducts() {
 // ------------------------------------------
 
 function renderAllProductSections() {
-  const newProducts = allProducts.filter(
-    (product) => product.isNew === true
-  );
+  const newProducts = allProducts.filter((product) => product.isNew === true);
+  const featuredProducts = allProducts.filter((product) => product.isFeatured === true);
+  const studsProducts = allProducts.filter((product) => product.category === "studs");
+  const jhumkaProducts = allProducts.filter((product) => product.category === "jhumka");
+  const fancyProducts = allProducts.filter((product) => product.category === "fancy");
+  const partyWearProducts = allProducts.filter((product) => product.category === "party-wear");
 
-  const studsProducts = allProducts.filter(
-    (product) => product.category === "studs"
-  );
+  renderProducts(newProducts, "newCollectionGrid");
+  renderProducts(featuredProducts, "featuredGrid");
+  renderProducts(studsProducts, "studsGrid");
+  renderProducts(jhumkaProducts, "jhumkaGrid");
+  renderProducts(fancyProducts, "fancyGrid");
+  renderProducts(partyWearProducts, "partyWearGrid");
 
-  const jhumkaProducts = allProducts.filter(
-    (product) => product.category === "jhumka"
-  );
-
-  const fancyProducts = allProducts.filter(
-    (product) => product.category === "fancy"
-  );
-
-  const partyWearProducts = allProducts.filter(
-    (product) => product.category === "party-wear"
-  );
-
-  renderProducts(
-    newProducts,
-    "newCollectionGrid"
-  );
-
-  renderProducts(
-    studsProducts,
-    "studsGrid"
-  );
-
-  renderProducts(
-    jhumkaProducts,
-    "jhumkaGrid"
-  );
-
-  renderProducts(
-    fancyProducts,
-    "fancyGrid"
-  );
-
-  renderProducts(
-    partyWearProducts,
-    "partyWearGrid"
-  );
-
-  // If cart.js has already loaded,
-  // synchronize the product cards with cart.
-  if (typeof syncProductCards === "function") {
-    syncProductCards();
-  }
+  if (typeof syncProductCards === "function") syncProductCards();
 }
 
 // ------------------------------------------

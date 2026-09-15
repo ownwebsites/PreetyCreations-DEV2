@@ -976,6 +976,10 @@ a {
     align-items: center;
 }
 
+.about-content h2 {
+    text-align: center;
+}
+
 .about-image-wrapper {
     width: 100%;
 
@@ -1071,7 +1075,7 @@ a {
     }
 
     .about-text {
-        text-align: left;
+        text-align: center;
     }
 
 }
@@ -1121,7 +1125,7 @@ a {
     }
 
     .about-text {
-        text-align: left;
+        text-align: center;
     }
 
     .about-text p {
@@ -1675,7 +1679,7 @@ a {
     }
 
     .about-text {
-        text-align: left;
+        text-align: center;
     }
 }
 
@@ -1936,4 +1940,403 @@ input:focus-visible {
         margin-top: 0 !important;
     }
 
+}
+
+/* =========================================================
+   EXPLORE COLLECTION MENU
+========================================================= */
+
+.explore-collection-wrapper {
+    position: relative;
+
+    width: 294px;
+    max-width: 100%;
+}
+
+
+/* EXPLORE BUTTON */
+
+.explore-collection-wrapper .explore-button {
+    width: 100%;
+}
+
+
+/* MENU */
+
+.explore-collection-menu {
+    position: absolute;
+
+    top: calc(100% + 8px);
+
+    left: 0;
+    right: 0;
+
+    display: none;
+
+    padding: 7px;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 10px 28px rgba(91, 36, 57, 0.15);
+
+    z-index: 100;
+}
+
+
+/* OPEN MENU */
+
+.explore-collection-menu.open {
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+/* MENU OPTIONS */
+
+.explore-collection-menu a {
+    display: block;
+
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border-radius: 9px;
+
+    color: var(--text);
+
+    font-size: 0.88rem;
+
+    font-weight: 650;
+
+    text-align: left;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+
+/* HOVER */
+
+.explore-collection-menu a:hover {
+    background: var(--primary-light);
+
+    color: var(--primary);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    .explore-collection-wrapper {
+        width: 294px;
+        max-width: 100%;
+    }
+
+    .explore-collection-menu a {
+        padding: 12px 13px;
+
+        font-size: 0.82rem;
+    }
+}
+
+/* Hide duplicate item count from bottom cart */
+.cart-bar .cart-count {
+    display: none;
+}
+
+
+/* =========================================================
+   PREETY CREATIONS - SOFT BLUSH + ROSE THEME
+   ========================================================= */
+
+:root {
+    --theme-bg: #FFF5F7;
+    --theme-light: #FCE4EC;
+    --theme-primary: #9C3D63;
+    --theme-primary-dark: #7F2F50;
+    --theme-text: #4A2635;
+    --theme-muted: #7A5A67;
+    --theme-border: #EBC4D1;
+}
+
+/* Page */
+html {
+    background: var(--theme-bg);
+}
+
+body {
+    background: var(--theme-bg);
+    color: var(--theme-text);
+}
+
+/* =========================
+   HEADER
+   ========================= */
+
+.site-header {
+    background: rgba(255, 245, 247, 0.97);
+    border-bottom: 1px solid var(--theme-border);
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero-section {
+    background: var(--theme-bg);
+}
+
+.hero-section h1 {
+    color: var(--theme-primary);
+}
+
+.hero-small-text,
+.hero-main-heading {
+    color: var(--theme-primary);
+}
+
+.hero-description,
+.hero-tagline {
+    color: var(--theme-muted);
+}
+
+/* =========================
+   FEATURES
+   ========================= */
+
+.features-section {
+    background: var(--theme-light);
+}
+
+.features-container .feature-pill {
+    background: #FFFFFF;
+    border-color: var(--theme-border);
+    color: var(--theme-muted);
+}
+
+/* =========================
+   ALL PRODUCT SECTIONS
+   ========================= */
+
+/* Remove any old section background */
+.product-section {
+    background: var(--theme-bg) !important;
+}
+
+/* Featured section */
+#featured {
+    background: var(--theme-light) !important;
+}
+
+/* New Collection */
+#new-collection {
+    background: var(--theme-bg) !important;
+}
+
+/* Studs */
+#studs {
+    background: var(--theme-light) !important;
+}
+
+/* Jhumka */
+#jhumka {
+    background: var(--theme-bg) !important;
+}
+
+/* Fancy */
+#fancy {
+    background: var(--theme-light) !important;
+}
+
+/* Party Wear */
+#party-wear {
+    background: var(--theme-bg) !important;
+}
+
+/* =========================
+   SECTION HEADINGS
+   ========================= */
+
+.section-heading h2 {
+    color: var(--theme-primary);
+}
+
+.section-heading p,
+.section-kicker {
+    color: var(--theme-muted);
+}
+
+/* =========================
+   PRODUCT CARDS
+   ========================= */
+
+.product-card {
+    background: #FFFFFF;
+    border-color: var(--theme-border);
+    box-shadow: 0 6px 20px rgba(156, 61, 99, 0.08);
+}
+
+.product-card.selected {
+    border-color: var(--theme-primary);
+    box-shadow: 0 6px 20px rgba(156, 61, 99, 0.15);
+}
+
+.select-product {
+    color: var(--theme-text);
+}
+
+.product-price {
+    color: var(--theme-primary);
+}
+
+.product-checkbox {
+    accent-color: var(--theme-primary);
+}
+
+.quantity-control {
+    border-color: var(--theme-border);
+}
+
+.quantity-button {
+    background: var(--theme-light);
+    color: var(--theme-primary);
+}
+
+.quantity-button:hover {
+    background: #F3C9D7;
+}
+
+/* =========================
+   ABOUT
+   ========================= */
+
+.about-section {
+    background: var(--theme-light) !important;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h2,
+.about-content h3,
+.about-text h2,
+.about-text h3 {
+    color: var(--theme-primary);
+}
+
+.about-content p,
+.about-text p {
+    color: var(--theme-muted);
+}
+
+/* =========================
+   LET'S CONNECT
+   ========================= */
+
+.contact-section {
+    background: var(--theme-bg) !important;
+}
+
+.contact-section h2 {
+    color: var(--theme-primary);
+}
+
+.contact-description {
+    color: var(--theme-muted);
+}
+
+/* =========================
+   CART BAR
+   ========================= */
+
+.cart-bar {
+    background: rgba(255, 255, 255, 0.97);
+    border-top-color: var(--theme-border);
+}
+
+.cart-text strong {
+    color: var(--theme-primary);
+}
+
+.cart-text span {
+    color: var(--theme-muted);
+}
+
+/* =========================
+   MOBILE MENU
+   ========================= */
+
+.mobile-menu {
+    background: var(--theme-bg);
+    border-top-color: var(--theme-border);
+}
+
+.mobile-menu a:hover,
+.mobile-menu a:active {
+    background: var(--theme-light);
+    color: var(--theme-primary);
+}
+
+/* =========================
+   CART MODAL
+   ========================= */
+
+.cart-modal-header {
+    background: var(--theme-light);
+    border-bottom-color: var(--theme-border);
+}
+
+.cart-modal-header h2 {
+    color: var(--theme-primary);
+}
+
+.cart-modal-footer {
+    background: var(--theme-bg);
+    border-top-color: var(--theme-border);
+}
+
+.cart-modal-footer .cart-total-row strong {
+    color: var(--theme-primary);
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.explore-button {
+    background: var(--theme-primary);
+    border-color: var(--theme-primary);
+    color: #FFFFFF;
+}
+
+.explore-button:hover {
+    background: var(--theme-primary-dark);
+}
+
+.modal-order-button {
+    background: var(--theme-primary);
+    color: #FFFFFF;
+}
+
+.modal-order-button:hover {
+    background: var(--theme-primary-dark);
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.site-footer {
+    background: var(--theme-light);
+    border-top-color: var(--theme-border);
+    color: var(--theme-muted);
 }

@@ -180,9 +180,39 @@
             </span>
           </a>
 
-          <a href="#new-collection" class="explore-button">
-            Explore Collection
-          </a>
+          <div class="explore-collection-wrapper">
+
+            <button type="button" class="explore-button" id="exploreCollectionButton">
+              Explore Collection
+            </button>
+
+            <div class="explore-collection-menu" id="exploreCollectionMenu">
+
+              <a href="#new-collection">
+                ✨ New Collection
+              </a>
+
+              <a href="#studs">
+                ♡ Studs Earrings
+              </a>
+
+              <a href="#jhumka">
+                ✨ Jhumka Earrings
+              </a>
+
+              <a href="#fancy">
+                💕 Fancy Earrings
+              </a>
+
+              <a href="#party-wear">
+                💝 Party Wear Earrings
+              </a>
+
+            </div>
+
+          </div>
+
+
 
         </div>
 
@@ -219,6 +249,14 @@
 
     </section>
 
+
+    <section id="featured" class="product-section">
+      <div class="section-heading">
+        <h3> Featured Designs</h3>
+      </div>
+
+      <div class="product-grid" id="featuredGrid"></div>
+    </section>
 
     <!-- ========================================
          NEW COLLECTION
@@ -763,7 +801,88 @@
       );
 
     });
+
+    // =========================================================
+    // EXPLORE COLLECTION MENU
+    // =========================================================
+
+    const exploreCollectionButton =
+      document.getElementById(
+        "exploreCollectionButton"
+      );
+
+    const exploreCollectionMenu =
+      document.getElementById(
+        "exploreCollectionMenu"
+      );
+
+    if (
+      exploreCollectionButton &&
+      exploreCollectionMenu
+    ) {
+
+      // Open / close collection menu
+      exploreCollectionButton.addEventListener(
+        "click",
+        (event) => {
+
+          event.stopPropagation();
+
+          exploreCollectionMenu.classList.toggle(
+            "open"
+          );
+
+        }
+      );
+
+
+      // Close menu after selecting a collection
+      exploreCollectionMenu
+        .querySelectorAll("a")
+        .forEach((link) => {
+
+          link.addEventListener(
+            "click",
+            () => {
+
+              exploreCollectionMenu.classList.remove(
+                "open"
+              );
+
+            }
+          );
+
+        });
+
+
+      // Close when clicking outside
+      document.addEventListener(
+        "click",
+        (event) => {
+
+          if (
+            !exploreCollectionMenu.contains(
+              event.target
+            ) &&
+            event.target !==
+            exploreCollectionButton
+          ) {
+
+            exploreCollectionMenu.classList.remove(
+              "open"
+            );
+
+          }
+
+        }
+      );
+
+    }
+
+
   </script>
+
+
 
 
   <!-- ==========================================
