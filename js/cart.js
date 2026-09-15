@@ -133,6 +133,9 @@ function updateCartUI() {
   // ----------------------------------------
   // NAVBAR CART COUNT
   // ----------------------------------------
+  // Kept for compatibility in case an old
+  // navbar cart element still exists.
+  // It does nothing when the element is removed.
 
   const navbarCartCount =
     document.getElementById(
@@ -442,13 +445,14 @@ function syncProductCards() {
           "selected"
         );
 
+        // DEFAULT QUANTITY = 0
         if (quantityElement) {
           quantityElement.textContent =
-            "1";
+            "0";
         }
 
         checkbox.dataset.quantity =
-          "1";
+          "0";
       }
     });
 }
@@ -504,10 +508,8 @@ function closeCart() {
 // ------------------------------------------
 
 function setupCartEvents() {
-  const navbarCartButton =
-    document.getElementById(
-      "navbarCartButton"
-    );
+  // Top navbar cart has been removed.
+  // Only the bottom cart button is used.
 
   const cartSummaryButton =
     document.getElementById(
@@ -539,15 +541,10 @@ function setupCartEvents() {
       "modalOrderButton"
     );
 
-  // Navbar cart
-  if (navbarCartButton) {
-    navbarCartButton.addEventListener(
-      "click",
-      openCart
-    );
-  }
+  // ----------------------------------------
+  // BOTTOM CART
+  // ----------------------------------------
 
-  // Bottom cart
   if (cartSummaryButton) {
     cartSummaryButton.addEventListener(
       "click",
@@ -555,7 +552,10 @@ function setupCartEvents() {
     );
   }
 
-  // Close button
+  // ----------------------------------------
+  // CLOSE BUTTON
+  // ----------------------------------------
+
   if (closeCartButton) {
     closeCartButton.addEventListener(
       "click",
@@ -563,7 +563,10 @@ function setupCartEvents() {
     );
   }
 
-  // Click outside modal
+  // ----------------------------------------
+  // CLICK OUTSIDE MODAL
+  // ----------------------------------------
+
   if (cartModalOverlay) {
     cartModalOverlay.addEventListener(
       "click",
@@ -578,7 +581,10 @@ function setupCartEvents() {
     );
   }
 
-  // Explore products from empty cart
+  // ----------------------------------------
+  // EXPLORE PRODUCTS
+  // ----------------------------------------
+
   if (emptyCartExplore) {
     emptyCartExplore.addEventListener(
       "click",
@@ -601,7 +607,10 @@ function setupCartEvents() {
     );
   }
 
-  // Bottom Place Order
+  // ----------------------------------------
+  // BOTTOM PLACE ORDER
+  // ----------------------------------------
+
   if (placeOrderButton) {
     placeOrderButton.addEventListener(
       "click",
@@ -609,7 +618,10 @@ function setupCartEvents() {
     );
   }
 
-  // Modal Place Order
+  // ----------------------------------------
+  // MODAL PLACE ORDER
+  // ----------------------------------------
+
   if (modalOrderButton) {
     modalOrderButton.addEventListener(
       "click",
@@ -729,7 +741,9 @@ function handleWhatsAppOrder() {
   const message =
     createOrderMessage();
 
-  openWhatsApp(message);
+  openWhatsApp(
+    message
+  );
 }
 
 // ------------------------------------------
@@ -744,43 +758,52 @@ function createOrderMessage() {
     `${WHATSAPP_GREETING}\n\n`;
 
   message +=
-    `I'd like to place an order:\n\n`;
+    "I would like to place an order for these handmade jewellery designs:\n\n";
 
   items.forEach(
-    (item, index) => {
+    (item) => {
+      const quantity =
+        Number(item.quantity) || 0;
+
+      const price =
+        Number(item.price) || 0;
+
+      const subtotal =
+        price * quantity;
+
       message +=
-        `${index + 1}. ${item.design}`;
-
-      if (item.price > 0) {
-        message +=
-          ` - ${formatCartPrice(
-            item.price
-          )}`;
-      }
+        `${item.design}\n`;
 
       message +=
-        ` × ${item.quantity}`;
+        `Quantity: ${quantity}\n`;
 
-      if (item.price > 0) {
+      if (price > 0) {
         message +=
-          ` = ${formatCartPrice(
-            item.price *
-              item.quantity
-          )}`;
-      }
+          `Price: ${formatCartPrice(
+            price
+          )} each\n`;
 
-      message += "\n";
+        message +=
+          `Subtotal: ${formatCartPrice(
+            subtotal
+          )}\n\n`;
+      } else {
+        message +=
+          "Price: Price on request\n";
+
+        message +=
+          "Subtotal: Price on request\n\n";
+      }
     }
   );
 
   message +=
-    `\nTotal: ${formatCartPrice(
+    `Total Order Value: ${formatCartPrice(
       getCartTotal()
-    )}`;
+    )}\n\n`;
 
   message +=
-    `\n\nShipping charges may apply depending on location. ` +
-    `Final details will be confirmed on WhatsApp.`;
+    "Please confirm availability, customization options and final shipping charges. Thank you! ✨";
 
   return message;
 }

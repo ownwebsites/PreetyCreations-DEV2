@@ -167,11 +167,15 @@ function createProductCard(product) {
     const newBadge =
       document.createElement("span");
 
-    newBadge.className = "new-badge";
+    newBadge.className =
+      "new-badge";
 
-    newBadge.textContent = "NEW";
+    newBadge.textContent =
+      "NEW";
 
-    imageWrapper.appendChild(newBadge);
+    imageWrapper.appendChild(
+      newBadge
+    );
   }
 
   // ----------------------------------------
@@ -182,18 +186,61 @@ function createProductCard(product) {
     document.createElement("div");
 
   details.className =
-    "product-details";
+    "product-info";
 
-  const title =
-    document.createElement("h3");
+  // ----------------------------------------
+  // SELECTION ROW
+  // ----------------------------------------
 
-  title.className =
-    "product-title";
+  const selectionRow =
+    document.createElement("div");
 
-  title.textContent =
-    product.design || "Design";
+  selectionRow.className =
+    "product-selection";
 
-  details.appendChild(title);
+  // ----------------------------------------
+  // CHECKBOX / SELECT
+  // ----------------------------------------
+
+  const checkboxLabel =
+    document.createElement("label");
+
+  checkboxLabel.className =
+    "select-product";
+
+  const checkbox =
+    document.createElement("input");
+
+  checkbox.type = "checkbox";
+
+  checkbox.className =
+    "product-checkbox";
+
+  // Stable ID used by cart.js
+  checkbox.dataset.id =
+    product.design;
+
+  // DEFAULT QUANTITY = 0
+  checkbox.dataset.quantity =
+    "0";
+
+  checkboxLabel.appendChild(
+    checkbox
+  );
+
+  const designText =
+    document.createElement("span");
+
+  designText.textContent =
+    product.design;
+
+  checkboxLabel.appendChild(
+    designText
+  );
+
+  selectionRow.appendChild(
+    checkboxLabel
+  );
 
   // ----------------------------------------
   // PRICE
@@ -208,63 +255,19 @@ function createProductCard(product) {
   price.textContent =
     formatPrice(product.price);
 
-  details.appendChild(price);
-
-  // ----------------------------------------
-  // SELECTION ROW
-  // ----------------------------------------
-
-  const selectionRow =
-    document.createElement("div");
-
-  selectionRow.className =
-    "product-selection-row";
-
-  const checkboxLabel =
-    document.createElement("label");
-
-  checkboxLabel.className =
-    "product-select-label";
-
-  // Checkbox
-  const checkbox =
-    document.createElement("input");
-
-  checkbox.type = "checkbox";
-
-  checkbox.className =
-    "product-checkbox";
-
-  // IMPORTANT:
-  // Stable ID used by cart.js
-  checkbox.dataset.id =
-    product.design;
-
-  checkbox.dataset.quantity = "1";
-
-  // Text
-  const selectText =
-    document.createElement("span");
-
-  selectText.textContent =
-    "Select";
-
-  checkboxLabel.appendChild(checkbox);
-  checkboxLabel.appendChild(selectText);
-
   selectionRow.appendChild(
-    checkboxLabel
+    price
   );
 
   // ----------------------------------------
   // QUANTITY CONTROLS
   // ----------------------------------------
 
-  const quantityControls =
+  const quantityControl =
     document.createElement("div");
 
-  quantityControls.className =
-    "quantity-controls";
+  quantityControl.className =
+    "quantity-control";
 
   const minusButton =
     document.createElement("button");
@@ -274,7 +277,8 @@ function createProductCard(product) {
   minusButton.className =
     "quantity-button quantity-minus";
 
-  minusButton.textContent = "−";
+  minusButton.textContent =
+    "−";
 
   minusButton.setAttribute(
     "aria-label",
@@ -287,7 +291,9 @@ function createProductCard(product) {
   quantityValue.className =
     "quantity-value";
 
-  quantityValue.textContent = "1";
+  // DEFAULT DISPLAY = 0
+  quantityValue.textContent =
+    "0";
 
   const plusButton =
     document.createElement("button");
@@ -297,29 +303,31 @@ function createProductCard(product) {
   plusButton.className =
     "quantity-button quantity-plus";
 
-  plusButton.textContent = "+";
+  plusButton.textContent =
+    "+";
 
   plusButton.setAttribute(
     "aria-label",
     `Increase quantity for ${product.design}`
   );
 
-  quantityControls.appendChild(
+  quantityControl.appendChild(
     minusButton
   );
 
-  quantityControls.appendChild(
+  quantityControl.appendChild(
     quantityValue
   );
 
-  quantityControls.appendChild(
+  quantityControl.appendChild(
     plusButton
   );
 
   selectionRow.appendChild(
-    quantityControls
+    quantityControl
   );
 
+  // Add selection row to product details
   details.appendChild(
     selectionRow
   );
@@ -328,8 +336,13 @@ function createProductCard(product) {
   // ADD TO CARD
   // ----------------------------------------
 
-  card.appendChild(imageWrapper);
-  card.appendChild(details);
+  card.appendChild(
+    imageWrapper
+  );
+
+  card.appendChild(
+    details
+  );
 
   // ----------------------------------------
   // CHECKBOX CHANGE
@@ -338,19 +351,48 @@ function createProductCard(product) {
   checkbox.addEventListener(
     "change",
     () => {
-      const quantity =
-        Number(checkbox.dataset.quantity) || 1;
+      let quantity =
+        Number(
+          checkbox.dataset.quantity
+        ) || 0;
 
       if (checkbox.checked) {
-        card.classList.add("selected");
+
+        // If user checks manually while
+        // quantity is 0, set quantity to 1.
+        if (quantity === 0) {
+          quantity = 1;
+
+          checkbox.dataset.quantity =
+            "1";
+
+          quantityValue.textContent =
+            "1";
+        }
+
+        card.classList.add(
+          "selected"
+        );
 
         updateProductSelection(
           product,
           quantity,
           true
         );
+
       } else {
-        card.classList.remove("selected");
+
+        // Unchecking always means
+        // quantity becomes 0.
+        checkbox.dataset.quantity =
+          "0";
+
+        quantityValue.textContent =
+          "0";
+
+        card.classList.remove(
+          "selected"
+        );
 
         updateProductSelection(
           product,
@@ -369,21 +411,27 @@ function createProductCard(product) {
     "click",
     () => {
       let quantity =
-        Number(checkbox.dataset.quantity) || 1;
+        Number(
+          checkbox.dataset.quantity
+        ) || 0;
 
+      // Increase quantity by 1
       quantity++;
 
       checkbox.dataset.quantity =
-        quantity;
+        String(quantity);
 
       quantityValue.textContent =
-        quantity;
+        String(quantity);
 
-      // Selecting product automatically
-      // when quantity is increased.
+      // Clicking + automatically selects
+      // the product.
       if (!checkbox.checked) {
         checkbox.checked = true;
-        card.classList.add("selected");
+
+        card.classList.add(
+          "selected"
+        );
       }
 
       updateProductSelection(
@@ -402,39 +450,60 @@ function createProductCard(product) {
     "click",
     () => {
       let quantity =
-        Number(checkbox.dataset.quantity) || 1;
+        Number(
+          checkbox.dataset.quantity
+        ) || 0;
 
-      if (quantity > 1) {
-        quantity--;
-
+      // Do nothing when already at 0
+      if (quantity <= 0) {
         checkbox.dataset.quantity =
-          quantity;
+          "0";
 
         quantityValue.textContent =
-          quantity;
+          "0";
 
-        if (checkbox.checked) {
-          updateProductSelection(
-            product,
-            quantity,
-            true
-          );
-        }
-      } else {
-        // Quantity cannot go below 1.
-        // If selected, unselect the product.
+        return;
+      }
+
+      quantity--;
+
+      checkbox.dataset.quantity =
+        String(quantity);
+
+      quantityValue.textContent =
+        String(quantity);
+
+      if (quantity === 0) {
+
+        // Quantity 0 means product is
+        // no longer selected.
         checkbox.checked = false;
 
-        checkbox.dataset.quantity = "1";
-
-        quantityValue.textContent = "1";
-
-        card.classList.remove("selected");
+        card.classList.remove(
+          "selected"
+        );
 
         updateProductSelection(
           product,
           0,
           false
+        );
+
+      } else {
+
+        // Still selected with quantity 1+
+        if (!checkbox.checked) {
+          checkbox.checked = true;
+
+          card.classList.add(
+            "selected"
+          );
+        }
+
+        updateProductSelection(
+          product,
+          quantity,
+          true
         );
       }
     }
@@ -503,23 +572,25 @@ function showProductLoadError() {
     "partyWearGrid"
   ];
 
-  containers.forEach((containerId) => {
-    const container =
-      document.getElementById(
-        containerId
-      );
+  containers.forEach(
+    (containerId) => {
+      const container =
+        document.getElementById(
+          containerId
+        );
 
-    if (!container) {
-      return;
+      if (!container) {
+        return;
+      }
+
+      container.innerHTML = `
+        <p class="empty-category-message">
+          Unable to load products right now.
+          Please refresh the page and try again.
+        </p>
+      `;
     }
-
-    container.innerHTML = `
-      <p class="empty-category-message">
-        Unable to load products right now.
-        Please refresh the page and try again.
-      </p>
-    `;
-  });
+  );
 }
 
 // ------------------------------------------
