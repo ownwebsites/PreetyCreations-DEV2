@@ -1226,6 +1226,10 @@ a {
     text-align: left;
 }
 
+.cart-summary-button {
+    padding-right: 10px !important;
+}
+
 .cart-icon {
     font-size: 1.8rem;
 
@@ -2112,7 +2116,7 @@ body {
    FEATURES
    ========================= */
 
-.features-section {
+/* .features-section {
     background: var(--theme-light);
 }
 
@@ -2120,7 +2124,7 @@ body {
     background: #FFFFFF;
     border-color: var(--theme-border);
     color: var(--theme-muted);
-}
+} */
 
 /* =========================
    ALL PRODUCT SECTIONS
@@ -2340,3 +2344,4 @@ body {
     border-top-color: var(--theme-border);
     color: var(--theme-muted);
 }
+

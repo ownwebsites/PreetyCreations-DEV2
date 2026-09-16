@@ -2,7 +2,7 @@
 // PREETY CREATIONS - CART
 // ==========================================
 
-const WHATSAPP_NUMBER = "919373086763";
+const WHATSAPP_NUMBER = "919049249567";
 
 const WHATSAPP_GREETING =
   "Hi @PreetyCreations 👋";
@@ -168,14 +168,12 @@ function updateCartUI() {
 
   if (cartText) {
     if (count === 0) {
-      cartText.textContent =
-        "Your cart is empty";
+      cartText.textContent = "   ";
     } else {
       cartText.textContent =
-        `${count} item${
-          count === 1
-            ? ""
-            : "s"
+        `${count} item${count === 1
+          ? ""
+          : "s"
         } • ${formatCartPrice(total)}`;
     }
   }
@@ -257,11 +255,11 @@ function renderCartModal(items) {
       <div class="cart-item-image">
         <img
           src="Images/${encodeURIComponent(
-            item.image
-          )}"
+      item.image
+    )}"
           alt="${escapeHtml(
-            item.design
-          )}"
+      item.design
+    )}"
         >
       </div>
 
@@ -269,14 +267,14 @@ function renderCartModal(items) {
 
         <div class="cart-item-title">
           ${escapeHtml(
-            item.design
-          )}
+      item.design
+    )}
         </div>
 
         <div class="cart-item-price">
           ${formatCartPrice(
-            item.price
-          )}
+      item.price
+    )}
         </div>
 
         <div class="cart-item-controls">
@@ -286,8 +284,8 @@ function renderCartModal(items) {
             class="cart-quantity-button"
             data-action="decrease"
             data-id="${escapeHtml(
-              item.id
-            )}"
+      item.id
+    )}"
             aria-label="Decrease quantity"
           >
             −
@@ -302,8 +300,8 @@ function renderCartModal(items) {
             class="cart-quantity-button"
             data-action="increase"
             data-id="${escapeHtml(
-              item.id
-            )}"
+      item.id
+    )}"
             aria-label="Increase quantity"
           >
             +
@@ -314,8 +312,8 @@ function renderCartModal(items) {
             class="cart-remove-button"
             data-action="remove"
             data-id="${escapeHtml(
-              item.id
-            )}"
+      item.id
+    )}"
           >
             Remove
           </button>
@@ -325,14 +323,13 @@ function renderCartModal(items) {
       </div>
 
       <div class="cart-item-subtotal">
-        ${
-          item.price > 0
-            ? formatCartPrice(
-                item.price *
-                  item.quantity
-              )
-            : "On request"
-        }
+        ${item.price > 0
+        ? formatCartPrice(
+          item.price *
+          item.quantity
+        )
+        : "On request"
+      }
       </div>
     `;
 
