@@ -124,6 +124,15 @@ function createProductCard(product) {
 
   imageWrapper.appendChild(image);
 
+  image.style.cursor = "zoom-in";
+
+  image.addEventListener("click", () => {
+    openImagePreview(
+      image.src,
+      image.alt
+    );
+  });
+
   // ----------------------------------------
   // NEW BADGE
   // ----------------------------------------
@@ -475,6 +484,71 @@ function createProductCard(product) {
   );
 
   return card;
+}
+
+let imagePreviewOverlay = null;
+
+function openImagePreview(src, alt) {
+  if (!imagePreviewOverlay) {
+    imagePreviewOverlay = document.createElement("div");
+    imagePreviewOverlay.className = "image-preview-overlay";
+
+    imagePreviewOverlay.innerHTML = `
+      <div class="image-preview-dialog" role="dialog" aria-modal="true">
+        <button
+          type="button"
+          class="image-preview-close"
+          aria-label="Close image preview"
+        >
+          ×
+        </button>
+
+        <img
+          class="image-preview-image"
+          src=""
+          alt=""
+        >
+      </div>
+    `;
+
+    document.body.appendChild(imagePreviewOverlay);
+
+    const closeButton =
+      imagePreviewOverlay.querySelector(".image-preview-close");
+
+    closeButton.addEventListener("click", closeImagePreview);
+
+    imagePreviewOverlay.addEventListener("click", (event) => {
+      if (event.target === imagePreviewOverlay) {
+        closeImagePreview();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "Escape" &&
+        imagePreviewOverlay.classList.contains("open")
+      ) {
+        closeImagePreview();
+      }
+    });
+  }
+
+  const previewImage =
+    imagePreviewOverlay.querySelector(".image-preview-image");
+
+  previewImage.src = src;
+  previewImage.alt = alt || "Handmade jewellery";
+
+  imagePreviewOverlay.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+
+function closeImagePreview() {
+  if (!imagePreviewOverlay) return;
+
+  imagePreviewOverlay.classList.remove("open");
+  document.body.style.overflow = "";
 }
 
 // ------------------------------------------

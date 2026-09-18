@@ -799,9 +799,9 @@ function createOrderMessage() {
       getCartTotal()
     )}\n\n`;
 
-  message +=
-    "Please confirm availability, customization options and final shipping charges. Thank you! ✨";
-
+  message += "I understand that the above prices exclude delivery charges and that delivery charges depend on my location.\n\n";
+  message += "Please confirm availability and my order. Thank you! ✨";
+    
   return message;
 }
 
