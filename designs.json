@@ -1,677 +1,708 @@
 [
-{
-  "design": "Design18",
-  "image": "Design18.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design19",
-  "image": "Design19.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design20",
-  "image": "Design20.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design21",
-  "image": "Design21.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design22",
-  "image": "Design22.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design23",
-  "image": "Design23.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design24",
-  "image": "Design24.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design25",
-  "image": "Design25.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design26",
-  "image": "Design26.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design27",
-  "image": "Design27.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design28",
-  "image": "Design28.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design29",
-  "image": "Design29.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-{
-  "design": "Design30",
-  "image": "Design30.jpeg",
-  "price": 101,
-  "category": "studs",
-  "isNew": false
-},
-
-{
-  "design": "Design31",
-  "image": "Design31.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design32",
-  "image": "Design32.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design33",
-  "image": "Design33.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design34",
-  "image": "Design34.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design35",
-  "image": "Design35.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design36",
-  "image": "Design36.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design37",
-  "image": "Design37.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design38",
-  "image": "Design38.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design39",
-  "image": "Design39.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design40",
-  "image": "Design40.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design41",
-  "image": "Design41.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design42",
-  "image": "Design42.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design43",
-  "image": "Design43.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design44",
-  "image": "Design44.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design45",
-  "image": "Design45.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design46",
-  "image": "Design46.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design47",
-  "image": "Design47.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design48",
-  "image": "Design48.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design49",
-  "image": "Design49.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design50",
-  "image": "Design50.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design51",
-  "image": "Design51.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design52",
-  "image": "Design52.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design53",
-  "image": "Design53.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design54",
-  "image": "Design54.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design55",
-  "image": "Design55.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design56",
-  "image": "Design56.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design57",
-  "image": "Design57.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design58",
-  "image": "Design58.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design59",
-  "image": "Design59.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design60",
-  "image": "Design60.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design61",
-  "image": "Design61.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design62",
-  "image": "Design62.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design63",
-  "image": "Design63.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design64",
-  "image": "Design64.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design65",
-  "image": "Design65.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design66",
-  "image": "Design66.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design67",
-  "image": "Design67.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-{
-  "design": "Design68",
-  "image": "Design68.jpeg",
-  "price": 101,
-  "category": "party-wear",
-  "isNew": false
-},
-
-{
-  "design": "Design69",
-  "image": "Design69.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design70",
-  "image": "Design70.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design71",
-  "image": "Design71.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design72",
-  "image": "Design72.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design73",
-  "image": "Design73.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design74",
-  "image": "Design74.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design75",
-  "image": "Design75.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-{
-  "design": "Design76",
-  "image": "Design76.jpeg",
-  "price": 101,
-  "category": "jhumka",
-  "isNew": false
-},
-
-{
-  "design": "Design77",
-  "image": "Design77.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design78",
-  "image": "Design78.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design79",
-  "image": "Design79.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design80",
-  "image": "Design80.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design81",
-  "image": "Design81.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design82",
-  "image": "Design82.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design83",
-  "image": "Design83.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design84",
-  "image": "Design84.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design85",
-  "image": "Design85.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design86",
-  "image": "Design86.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design87",
-  "image": "Design87.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design88",
-  "image": "Design88.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design89",
-  "image": "Design89.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design90",
-  "image": "Design90.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design91",
-  "image": "Design91.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design92",
-  "image": "Design92.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design93",
-  "image": "Design93.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design94",
-  "image": "Design94.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design95",
-  "image": "Design95.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design96",
-  "image": "Design96.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design97",
-  "image": "Design97.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-{
-  "design": "Design98",
-  "image": "Design98.jpeg",
-  "price": 101,
-  "category": "fancy",
-  "isNew": false
-},
-
-{
-  "design": "Design99",
-  "image": "Design99.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design100",
-  "image": "Design100.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design101",
-  "image": "Design101.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design102",
-  "image": "Design102.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design103",
-  "image": "Design103.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design104",
-  "image": "Design104.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design105",
-  "image": "Design105.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design106",
-  "image": "Design106.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design107",
-  "image": "Design107.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design108",
-  "image": "Design108.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design109",
-  "image": "Design109.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design110",
-  "image": "Design110.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-},
-{
-  "design": "Design111",
-  "image": "Design111.jpeg",
-  "price": 101,
-  "category": "",
-  "isNew": false,
-  "isFeatured": true
-}
+  {
+    "design": "Design18",
+    "image": "Design18.jpeg",
+    "price": 120,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design19",
+    "image": "Design19.jpeg",
+    "price": 120,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design20",
+    "image": "Design20.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design21",
+    "image": "Design21.jpeg",
+    "price": 120,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design22",
+    "image": "Design22.jpeg",
+    "price": 49,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design23",
+    "image": "Design23.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design24",
+    "image": "Design24.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design25",
+    "image": "Design25.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design26",
+    "image": "Design26.jpeg",
+    "price": 120,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design27",
+    "image": "Design27.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design28",
+    "image": "Design28.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design29",
+    "image": "Design29.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design30",
+    "image": "Design30.jpeg",
+    "price": 100,
+    "category": "studs",
+    "isNew": false
+  },
+  {
+    "design": "Design31",
+    "image": "Design31.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design32",
+    "image": "Design32.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design33",
+    "image": "Design33.jpeg",
+    "price": 120,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design34",
+    "image": "Design34.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design35",
+    "image": "Design35.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design36",
+    "image": "Design36.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design37",
+    "image": "Design37.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design38",
+    "image": "Design38.jpeg",
+    "price": 250,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design39",
+    "image": "Design39.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design40",
+    "image": "Design40.jpeg",
+    "price": 150,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design41",
+    "image": "Design41.jpeg",
+    "price": 250,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design42",
+    "image": "Design42.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design43",
+    "image": "Design43.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design44",
+    "image": "Design44.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design45",
+    "image": "Design45.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design46",
+    "image": "Design46.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design47",
+    "image": "Design47.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design48",
+    "image": "Design48.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design49",
+    "image": "Design49.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design50",
+    "image": "Design50.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design51",
+    "image": "Design51.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design52",
+    "image": "Design52.jpeg",
+    "price": 120,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design53",
+    "image": "Design53.jpeg",
+    "price": 250,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design54",
+    "image": "Design54.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design55",
+    "image": "Design55.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design56",
+    "image": "Design56.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design57",
+    "image": "Design57.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design58",
+    "image": "Design58.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design59",
+    "image": "Design59.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design60",
+    "image": "Design60.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design61",
+    "image": "Design61.jpeg",
+    "price": 149,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design62",
+    "image": "Design62.jpeg",
+    "price": 249,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design63",
+    "image": "Design63.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design64",
+    "image": "Design64.jpeg",
+    "price": 120,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design65",
+    "image": "Design65.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design66",
+    "image": "Design66.jpeg",
+    "price": 250,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design67",
+    "image": "Design67.jpeg",
+    "price": 120,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design68",
+    "image": "Design68.jpeg",
+    "price": 199,
+    "category": "party-wear",
+    "isNew": false
+  },
+  {
+    "design": "Design69",
+    "image": "Design69.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design70",
+    "image": "Design70.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design71",
+    "image": "Design71.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design72",
+    "image": "Design72.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design73",
+    "image": "Design73.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design74",
+    "image": "Design74.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design75",
+    "image": "Design75.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design76",
+    "image": "Design76.jpeg",
+    "price": 149,
+    "category": "jhumka",
+    "isNew": false
+  },
+  {
+    "design": "Design77",
+    "image": "Design77.jpeg",
+    "price": 140,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design78",
+    "image": "Design78.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design79",
+    "image": "Design79.jpeg",
+    "price": 120,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design80",
+    "image": "Design80.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design81",
+    "image": "Design81.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design82",
+    "image": "Design82.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design83",
+    "image": "Design83.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design84",
+    "image": "Design84.jpeg",
+    "price": 199,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design85",
+    "image": "Design85.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design86",
+    "image": "Design86.jpeg",
+    "price": 199,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design87",
+    "image": "Design87.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design88",
+    "image": "Design88.jpeg",
+    "price": 199,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design89",
+    "image": "Design89.jpeg",
+    "price": 199,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design90",
+    "image": "Design90.jpeg",
+    "price": 90,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design91",
+    "image": "Design91.jpeg",
+    "price": 199,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design92",
+    "image": "Design92.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design93",
+    "image": "Design93.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design94",
+    "image": "Design94.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design95",
+    "image": "Design95.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design96",
+    "image": "Design96.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design97",
+    "image": "Design97.jpeg",
+    "price": 120,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design98",
+    "image": "Design98.jpeg",
+    "price": 149,
+    "category": "fancy",
+    "isNew": false
+  },
+  {
+    "design": "Design99",
+    "image": "Design99.jpeg",
+    "price": 120,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design100",
+    "image": "Design100.jpeg",
+    "price": 149,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design101",
+    "image": "Design101.jpeg",
+    "price": 250,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design102",
+    "image": "Design102.jpeg",
+    "price": 150,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design103",
+    "image": "Design103.jpeg",
+    "price": 150,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design104",
+    "image": "Design104.jpeg",
+    "price": 199,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design105",
+    "image": "Design105.jpeg",
+    "price": 199,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design106",
+    "image": "Design106.jpeg",
+    "price": 250,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design107",
+    "image": "Design107.jpeg",
+    "price": 149,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design108",
+    "image": "Design108.jpeg",
+    "price": 250,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design109",
+    "image": "Design109.jpeg",
+    "price": 199,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design110",
+    "image": "Design110.jpeg",
+    "price": 120,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design111",
+    "image": "Design111.jpeg",
+    "price": 120,
+    "category": "",
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "design": "Design112",
+    "image": "Design112.jpeg",
+    "price": 199,
+    "category": "",
+    "isNew": true
+  },
+  {
+    "design": "Design113",
+    "image": "Design113.jpeg",
+    "price": 199,
+    "category": "",
+    "isNew": true
+  },
+  {
+    "design": "Design114",
+    "image": "Design114.jpeg",
+    "price": 249,
+    "category": "",
+    "isNew": true
+  },
+  {
+    "design": "Design115",
+    "image": "Design115.jpeg",
+    "price": 249,
+    "category": "",
+    "isNew": true
+  },
+  {
+    "design": "Design116",
+    "image": "Design116.jpeg",
+    "price": 199,
+    "category": "",
+    "isNew": true
+  }
 ]
