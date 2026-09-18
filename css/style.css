@@ -2300,3 +2300,133 @@ input:focus-visible {
 .about-section {
     padding-top: 30px;
 }
+
+/* =========================================================
+   CART POPUP - FINAL SOFT BLUSH + ROSE THEME
+   ========================================================= */
+
+/* Popup background */
+.cart-modal {
+    background: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: 0 20px 60px rgba(91, 36, 57, 0.18) !important;
+}
+
+/* Header */
+.cart-modal-header {
+    background: var(--primary-light) !important;
+    border-bottom: 1px solid var(--border) !important;
+}
+
+.cart-modal-header h2 {
+    color: var(--primary) !important;
+}
+
+/* Close button */
+.close-cart-button {
+    background: #FFFFFF !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--border) !important;
+}
+
+.close-cart-button:hover {
+    background: var(--primary) !important;
+    color: #FFFFFF !important;
+}
+
+/* Cart products area */
+.cart-items {
+    background: var(--background) !important;
+}
+
+/* Individual cart item */
+.cart-item {
+    background: #FFFFFF !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+
+    box-shadow:
+        0 4px 14px rgba(91, 36, 57, 0.06) !important;
+}
+
+.cart-item:hover {
+    border-color: var(--primary) !important;
+}
+
+/* Product image border */
+.cart-item-image {
+    background: var(--primary-light) !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* Design name */
+.cart-item-title {
+    color: var(--text) !important;
+}
+
+/* Price */
+.cart-item-price {
+    color: var(--primary) !important;
+}
+
+/* Quantity buttons */
+.cart-quantity-button {
+    background: var(--primary-light) !important;
+    color: var(--primary) !important;
+    border-color: var(--border) !important;
+}
+
+.cart-quantity-button:hover {
+    background: #F3C9D7 !important;
+    border-color: var(--primary) !important;
+}
+
+/* Quantity number */
+.cart-quantity {
+    color: var(--text) !important;
+}
+
+/* Remove button */
+.cart-remove-button {
+    background: #FFF5F7 !important;
+    color: var(--primary) !important;
+    border-color: var(--border) !important;
+}
+
+.cart-remove-button:hover {
+    background: var(--primary-light) !important;
+    border-color: var(--primary) !important;
+}
+
+/* Subtotal */
+.cart-item-subtotal {
+    color: var(--primary) !important;
+}
+
+/* Footer */
+.cart-modal-footer {
+    background: var(--primary-light) !important;
+    color: var(--text) !important;
+    border-top: 1px solid var(--border) !important;
+}
+
+/* Total text */
+.cart-modal-footer .cart-total-row {
+    color: var(--text) !important;
+}
+
+.cart-modal-footer .cart-total-row strong {
+    color: var(--primary) !important;
+}
+
+/* Shipping note */
+.cart-shipping-note {
+    color: var(--muted) !important;
+}
+
+/* WhatsApp button */
+.cart-modal-footer .modal-order-button {
+    background: var(--whatsapp) !important;
+    color: #FFFFFF !important;
+}
