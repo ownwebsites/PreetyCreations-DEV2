@@ -2,28 +2,28 @@
   {
     "design": "Design18",
     "image": "Design18.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design19",
     "image": "Design19.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design20",
     "image": "Design20.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design21",
     "image": "Design21.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "studs",
     "isNew": false
   },
@@ -37,56 +37,56 @@
   {
     "design": "Design23",
     "image": "Design23.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design24",
     "image": "Design24.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design25",
     "image": "Design25.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design26",
     "image": "Design26.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design27",
     "image": "Design27.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design28",
     "image": "Design28.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design29",
     "image": "Design29.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
   {
     "design": "Design30",
     "image": "Design30.jpeg",
-    "price": 100,
+    "price": 99,
     "category": "studs",
     "isNew": false
   },
@@ -107,7 +107,7 @@
   {
     "design": "Design33",
     "image": "Design33.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "party-wear",
     "isNew": false
   },
@@ -142,7 +142,7 @@
   {
     "design": "Design38",
     "image": "Design38.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "party-wear",
     "isNew": false
   },
@@ -156,14 +156,14 @@
   {
     "design": "Design40",
     "image": "Design40.jpeg",
-    "price": 150,
+    "price": 149,
     "category": "party-wear",
     "isNew": false
   },
   {
     "design": "Design41",
     "image": "Design41.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "party-wear",
     "isNew": false
   },
@@ -240,14 +240,14 @@
   {
     "design": "Design52",
     "image": "Design52.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "party-wear",
     "isNew": false
   },
   {
     "design": "Design53",
     "image": "Design53.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "party-wear",
     "isNew": false
   },
@@ -324,7 +324,7 @@
   {
     "design": "Design64",
     "image": "Design64.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "party-wear",
     "isNew": false
   },
@@ -338,14 +338,14 @@
   {
     "design": "Design66",
     "image": "Design66.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "party-wear",
     "isNew": false
   },
   {
     "design": "Design67",
     "image": "Design67.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "party-wear",
     "isNew": false
   },
@@ -415,7 +415,7 @@
   {
     "design": "Design77",
     "image": "Design77.jpeg",
-    "price": 140,
+    "price": 139,
     "category": "fancy",
     "isNew": false
   },
@@ -429,7 +429,7 @@
   {
     "design": "Design79",
     "image": "Design79.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "fancy",
     "isNew": false
   },
@@ -506,7 +506,7 @@
   {
     "design": "Design90",
     "image": "Design90.jpeg",
-    "price": 90,
+    "price": 89,
     "category": "fancy",
     "isNew": false
   },
@@ -555,7 +555,7 @@
   {
     "design": "Design97",
     "image": "Design97.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "fancy",
     "isNew": false
   },
@@ -569,7 +569,7 @@
   {
     "design": "Design99",
     "image": "Design99.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -585,7 +585,7 @@
   {
     "design": "Design101",
     "image": "Design101.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -593,7 +593,7 @@
   {
     "design": "Design102",
     "image": "Design102.jpeg",
-    "price": 150,
+    "price": 149,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -601,7 +601,7 @@
   {
     "design": "Design103",
     "image": "Design103.jpeg",
-    "price": 150,
+    "price": 149,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -625,7 +625,7 @@
   {
     "design": "Design106",
     "image": "Design106.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -641,7 +641,7 @@
   {
     "design": "Design108",
     "image": "Design108.jpeg",
-    "price": 250,
+    "price": 249,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -657,7 +657,7 @@
   {
     "design": "Design110",
     "image": "Design110.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "",
     "isNew": false,
     "isFeatured": true
@@ -665,7 +665,7 @@
   {
     "design": "Design111",
     "image": "Design111.jpeg",
-    "price": 120,
+    "price": 119,
     "category": "",
     "isNew": false,
     "isFeatured": true
